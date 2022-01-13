@@ -7,6 +7,44 @@
     <title>Contato</title>
 </head>
 <body>
-    
+    <form action="">
+        <fieldset>
+            <legend>Contato</legend>
+
+            <label for="Assunto"><strong>Assunto:</strong></label>
+            <select name="assunto" id="Assunto">
+                <option value="Suporte">Suporte</option>
+                <option value="Reclamação">Reclamação</option>
+                <option value="Sugestão">Sugestão</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="Nome"><strong>Nome Completo:</strong></label>
+            <br>
+            <input name="nome" id="Nome" type="text" placeholder="Digite seu nome">
+            <br>
+            <br>
+
+            <label for="Email"><strong>E-mail:</strong></label>
+            <br>
+            <input name="email" type="email" id="Email" placeholder="email@example.com">
+            <br>
+            <br>
+
+            <label for="Mensagem"><strong>Mensagem:</strong></label>
+            <br>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+            <br>
+            <br>
+
+            <input type="checkbox" name="notification" id="notification">
+            <label for="notification">Deseja receber notificações por email?</label>
+            <br>
+            <br>
+            
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
 </body>
 </html>
